@@ -6,13 +6,13 @@ import '@/global.css';
 
 export default function App() {
   return (
-    
+
     <GluestackUIProvider mode="dark">
       <View style={styles.container}>
-      <Text> 2o. Info 2026</Text>
-    </View>
+        <Text> 2o. Info 2026</Text>
+      </View>
     </GluestackUIProvider>
-  
+
   );
 }
 
