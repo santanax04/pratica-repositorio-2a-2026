@@ -1,11 +1,18 @@
 import { StyleSheet, Text, View } from 'react-native';
 
 
+import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
+import '@/global.css';
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    
+    <GluestackUIProvider mode="dark">
+      <View style={styles.container}>
+      <Text> 2o. Info 2026</Text>
     </View>
+    </GluestackUIProvider>
+  
   );
 }
 
