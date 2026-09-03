@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-
 import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
 import '@/global.css';
+import { Button, ButtonText } from '@/components/ui/button';
 
 export default function App() {
   return (
@@ -10,7 +10,10 @@ export default function App() {
     <GluestackUIProvider mode="dark">
       <View style={styles.container}>
         <Text> 2o. Info 2026</Text>
-      </View>
+      <Button variant="default" size="default">
+        <ButtonText>Button</ButtonText>
+      </Button>
+    </View>
     </GluestackUIProvider>
 
   );
