@@ -9,9 +9,9 @@ export default function App() {
 
     <GluestackUIProvider mode="dark">
       <View style={styles.container}>
-        <Text> 2o. Info 2026</Text>
-      <Button variant="default" size="default">
-        <ButtonText>Este é o primeiro botão</ButtonText>
+      <Text> 2o. Info 2026</Text>
+      <Button variant="outline" size="default">
+        <ButtonText className='text-black font-bold uppercase'>2° INFO - etec</ButtonText>
       </Button>
     </View>
     </GluestackUIProvider>
