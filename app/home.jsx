@@ -13,6 +13,7 @@ export default function app() {
               Esta é a rota "/" (arquivo app/home.jsx). Os botões abaixo levam para a mesma tela de detalhes,
               usando as formas de navegar do expo-router.
         </Text>
+           <divider />
 
       </VStack>
     </Box>
