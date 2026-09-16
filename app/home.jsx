@@ -1,5 +1,6 @@
 import { Text } from "@/components/ui/text";
 import { Link } from "expo-router";
+import { Box } from "@/components/ui/box";
 
 export default function Home() {
   return (
