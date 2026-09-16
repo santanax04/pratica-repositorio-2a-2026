@@ -1,5 +1,5 @@
 import { Text } from "@/components/ui/text";
-import { Link } from "@/components/ui/link";
+import { Link } from "expo-router";
 
 export default function App() {
   return (
