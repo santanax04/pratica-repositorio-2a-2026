@@ -1,7 +1,7 @@
 import { Text } from "@/components/ui/text";
 import { Link } from "expo-router";
 
-export default function Home() {
+export default function app() {
   return (
     <>  
         <Text>Página Principal</Text>
