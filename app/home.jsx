@@ -3,9 +3,8 @@ import { Link } from "expo-router";
 
 export default function Home() {
   return (
-    <>  
-        <Text>Página Principal</Text>
-        <Link href="/details">Ir para Detalhes</Link>
-    </>
+    <Box className="flex-1 bg-white p-6">
+
+    </Box>
   );
 }
