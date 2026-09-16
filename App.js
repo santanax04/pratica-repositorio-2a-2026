@@ -4,7 +4,7 @@ import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
 import '@/global.css';
 import { Button, ButtonText } from './components/ui/button';
 import { Text } from '@/components/ui/text';
-import { Link } from '@/components/ui/link';
+import { Link, LinkText } from '@/components/ui/link';
 
 export default function App() {
   return (
