@@ -5,7 +5,7 @@ export default function Details() {
   return (
     <>  
         <Text>Detalhes</Text>
-        <Link href="/">Página Principal</Link>
+        <Link href="/home">Página Principal</Link>
     </>
   );
 }
