@@ -10,8 +10,8 @@ export default function app() {
       <VStack space="lg">
         <Heading size="xl">Tela Inicial</Heading>
         <Text size="md">
-              Esta é a rota "/" (arquivo app/home.jsx)
-
+              Esta é a rota "/" (arquivo app/home.jsx). Os botões abaixo levam para a mesma tela de detalhes,
+              usando as formas de navegar do expo-router.
         </Text>
 
       </VStack>
