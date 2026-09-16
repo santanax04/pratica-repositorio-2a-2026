@@ -6,8 +6,8 @@ export default function RootLayout() {
         <GluestackUIProvider mode="light">
             { /*<Stack screenOptions={{headerShown: false}}>*/ }
             <Stack>
-                <Stack.Screen name="home" options={{ handleTitle: "Página Principal" }} />
-                <Stack.Screen name="details" options={{ handleTitle: "Detalhes" }} />
+                <Stack.Screen name="home" options={{ headerTitle: "Página Principal" }} />
+                <Stack.Screen name="details" options={{ headerTitle: "Detalhes" }} />
             </Stack>
         </GluestackUIProvider>
     )
