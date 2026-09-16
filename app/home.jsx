@@ -3,6 +3,7 @@ import { Link } from "expo-router";
 import { Box } from "@/components/ui/box";
 import { VStack } from "@/components/ui/vstack";
 import { Heading } from "@/components/ui/heading";
+import { Divider } from "@/components/ui/divider";
 
 export default function app() {
   return (
@@ -13,8 +14,12 @@ export default function app() {
               Esta é a rota "/" (arquivo app/home.jsx). Os botões abaixo levam para a mesma tela de detalhes,
               usando as formas de navegar do expo-router.
         </Text>
-           <divider />
-
+           <Divider />
+             <Link href="/details" asChild>
+               <Button>
+                 <ButtonText>Ir com o link(declarativo)</ButtonText>
+               </Button>
+             </Link>
       </VStack>
     </Box>
   );
