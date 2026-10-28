@@ -1,6 +1,7 @@
 import { Text } from "@/components/ui/text";
 import { Link } from "expo-router";
 import { Box } from "@/components/ui/box";
+import { Button, ButtonText } from "@/components/ui/button";
 import { VStack } from "@/components/ui/vstack";
 import { Heading } from "@/components/ui/heading";
 import { Divider } from "@/components/ui/divider";
