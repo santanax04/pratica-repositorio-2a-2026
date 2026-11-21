@@ -1,0 +1,31 @@
+import { StyleSheet, Text, View } from 'react-native';
+
+import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
+import '@/global.css';
+import { Button, ButtonText } from './components/ui/button';
+import { Text } from '@/components/ui/text';
+import { Link, LinkText } from '@/components/ui/link';
+
+export default function App() {
+  return (
+
+    <GluestackUIProvider mode="dark">
+      <View style={styles.container}>
+      <Text> 2o. Info 2026</Text>
+      <Button variant="secondary" size="default">
+        <ButtonText className='font-bold uppercase'>2° INFO - etec</ButtonText>
+      </Button>
+    </View>
+    </GluestackUIProvider>
+
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
